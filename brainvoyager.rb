@@ -12,6 +12,7 @@ cask "brainvoyager" do
     uninstall pkgutil: "com.brainvoyager.pkg"
   
     zap trash: [
+      "~/Applications/BrainVoyager",
       "~/Library/Preferences/com.braininnovation.BVNotebook.plist",
       "~/Library/Caches/Brain Innovation", 
       "~/Library/Saved Application State/com.braininnovation.BrainVoyager.savedState "
