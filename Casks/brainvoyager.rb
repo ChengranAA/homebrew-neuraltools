@@ -9,10 +9,12 @@ cask "brainvoyager" do
   
     pkg "BrainVoyager_#{version}_arm64_Installer.pkg", allow_untrusted: true
   
-    uninstall pkgutil: "com.brainvoyager.pkg"
+    uninstall pkgutil: [
+      "com.braininnovation.pkg.BrainVoyager",
+      "com.braininnovation.pkg.BV-Plugins"
+    ]
   
     zap trash: [
-      "~/Applications/BrainVoyager",
       "~/Library/Preferences/com.braininnovation.BVNotebook.plist",
       "~/Library/Caches/Brain Innovation", 
       "~/Library/Saved Application State/com.braininnovation.BrainVoyager.savedState "
