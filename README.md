@@ -1,9 +1,9 @@
-# 🧠 Unofficial Neuroscience Software Homebrew Cask Tap
+# Unofficial Neuroscience Software Homebrew Cask Tap
 
-## 📌 Overview
+## Overview
 This is an **unofficial** Homebrew tap for neuroscience-related software, providing easy installation and management via Homebrew Cask.
 
-## 🚀 Installation
+## Installation
 To use this tap, add it to Homebrew:
 
 ```sh
@@ -22,7 +22,7 @@ For example, to install **BrainVoyager**:
 brew install --cask brainvoyager
 ```
 
-## 🔄 Updating
+## Updating
 To update the tap and installed casks:
 
 ```sh
@@ -30,7 +30,7 @@ brew update
 brew upgrade --cask <software_name>
 ```
 
-## 🗑️ Uninstalling
+## Uninstalling
 To remove a cask:
 
 ```sh
@@ -48,11 +48,11 @@ This repository is **not affiliated with** or **endorsed by** the official devel
 
 Use at your own risk. For official support, please refer to the respective software’s official website.
 
-## 📬 Contributing
+## Contributing
 If you want to add more neuroscience software to this tap, feel free to submit a pull request!
 
 ---
 
-### 🔗 Useful Links
+### Useful Links
 - [Homebrew Documentation](https://brew.sh)
 - [Homebrew Cask Guide](https://docs.brew.sh/Cask-Cookbook)
