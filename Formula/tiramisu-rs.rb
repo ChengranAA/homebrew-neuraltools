@@ -8,7 +8,7 @@ class TiramisuRs < Formula
 
   def install
     libexec.install Dir["*"]
-    bin.install_symlink libexec/"tiramisu-rs"
+    bin.install_symlink libexec/"tiramisu-rs" => "tiramisu-rs"
   end
 
   test do
